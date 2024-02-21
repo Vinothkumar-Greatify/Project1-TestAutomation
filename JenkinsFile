@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout from Git') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Vinothkumar-Greatify/Project1-TestAutomation.git'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                sh 'composer install'
+                sh 'npm install'                
+            }
+        }
+        /*stage('sonar') {
+            steps {
+                sh 'composer install'
+                sh 'npm install'                
+            }
+        }*/
+        stage('build') {
+            steps {
+                sh 'php artisan migrate --force'
+                sh 'php artisan optimize'
+            }
+        }
+        stage('run test') {
+            steps {
+                sh 'vendor/bin/phpunit'                
+            }
+        }
+    }
+}
