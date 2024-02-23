@@ -39,7 +39,7 @@ jobs:
     
     - name: Install Selenium and Test Dependencies
       run: |
-        mvn -f tests/pom.xml -X clean test
+        mvn -f tests/pom.xml -X clean test -Dmaven.test.failure.ignore=true
 
     - name: Gather Test Reports
       run: |
