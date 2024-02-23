@@ -1,0 +1,2 @@
+Column Index,Subject Hour,Subject Minutes,Calendar CSV Path,Categories,School Timing,No. of Periods,Duration per period,Break Type,Break Mins,Break Comes After
+5,200,0,/Users/mullai/Documents/Greatify/Automation/calendarCsv.csv,Primary,09:00,8,45,Lunch,45,4

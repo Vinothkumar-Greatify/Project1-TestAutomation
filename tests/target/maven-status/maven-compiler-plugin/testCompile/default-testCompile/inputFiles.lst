@@ -1,0 +1,10 @@
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/pages/TeacherInformationPage.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/pages/StudentInformationPage.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/pages/EmailReport.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/stepdefinition/TC1_StudentInformationStep.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/pagemanager/PageObjectManager.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/base/BaseClass.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/stepdefinition/HooksClass.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/stepdefinition/TC2_TeacherInformationStep.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/pages/CreateNewStudentPage.java
+/Users/mullai/eclipse-workspace/GreatifyWebAutomation/src/test/java/com/runner/TestRunner.java
