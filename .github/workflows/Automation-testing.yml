@@ -39,7 +39,7 @@ jobs:
     
     - name: Install Selenium and Test Dependencies
       run: |
-        mvn -f tests/pom.xml clean test
+        mvn -f tests/pom.xml -e clean test
 
     - name: Gather Test Reports
       run: |
