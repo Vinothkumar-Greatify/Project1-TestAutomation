@@ -33,3 +33,18 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
+      
+    - name: Install Selenium and Test Dependencies
+      run: |
+        mvn clean test
+
+    - name: Gather Test Reports
+      run: |
+        mkdir -p test-reports
+        mv *.html test-reports/
+
+    - name: Publish Test Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-reports
+          
