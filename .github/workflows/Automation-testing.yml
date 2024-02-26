@@ -56,7 +56,7 @@ jobs:
 
     - name: Run Selenium tests with Chrome
       run: |
-        mvn -f tests/pom.xml -X clean test -Dbrowser=chrome
+        mvn -f tests/pom.xml clean test -Dbrowser=chrome
 
     - name: Gather Test Reports
       run: |
