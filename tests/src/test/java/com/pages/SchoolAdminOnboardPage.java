@@ -104,7 +104,7 @@ public class SchoolAdminOnboardPage extends BaseClass {
 
 	// 3. Generates New School Profile Invite
 
-	@FindBy(css = ".invitebtn")
+	@FindBy(xpath = "//button[@class=\"invitebtn\" and @data-target=\"#invit_modal\"]")
 	private WebElement btnInviteSchool;
 	@FindBy(id = "invite_schoolname")
 	private WebElement txtSchoolName;
