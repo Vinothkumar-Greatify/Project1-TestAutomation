@@ -359,7 +359,7 @@ public class BaseClass {
 			ChromeOptions options = new ChromeOptions();
 
 			// 1. Without opening the browser
-			options.addArguments("--headless");
+			//options.addArguments("--headless");
 			// 2. Maximize Window
 			// options.addArguments("--start-maximized");
 			// 3. Open in incognito
