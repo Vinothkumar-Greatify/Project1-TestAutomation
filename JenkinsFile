@@ -10,7 +10,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 sh 'composer update'
-                sh 'composer install'
+                sh 'composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist'
                 sh 'npm install'                
             }
         }
